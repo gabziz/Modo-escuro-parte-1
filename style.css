@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #d1cfe0 ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #645e99;
+    padding: 20px;
+    color: #5ba2f9;
+}
+
+main{
+    padding: 25px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.dark-mode-header{
+    background-color:#46426c ;
+    color: #5ba2f9;
+    color: #bf0132;
+}
+
+.dark-mode {
+    background-color: black;
+    color: #5ba2f9;
+}
+
+/*.dark-mode header{
+    background-color:#46426c ;
+    color: #5ba2f9;
+    color: #bf0132;
+} 
+outra forma de fazer sem mexer no js 
+*/
